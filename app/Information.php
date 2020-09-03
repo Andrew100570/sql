@@ -17,7 +17,7 @@ class Information extends Model
         'characteristics-THICKNESS_MEMBER_2_MM','welding-WELDING_DATE',
         'welding-WELDING_METHOD','welding-TYPE_OF_WELDS','welding-TYPE_OF_JOINT',
         'welding-NO_OF_THE_JOINT_AS_PER_AS_BUILT_SURVEY','welding-WELDER_S_STAMP_ROOT_PASS',
-        'KSS'
+//        'KSS'
     ];
     public $timestamps = false;
 }

@@ -16,3 +16,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/sql', 'InformationController@index')->name('sql.index');
+Route::post('/sql', 'InformationController@create')->name('sql.create');
