@@ -19,3 +19,7 @@ Route::get('/', function () {
 
 Route::get('/sql', 'InformationController@index')->name('sql.index');
 Route::post('/sql', 'InformationController@create')->name('sql.create');
+Route::get('/api', 'InformationController@get')->name('api');
+Route::get('/add', 'InformationController@add')->name('add');
+Route::post('/add', 'InformationController@addFile')->name('addFile');
+

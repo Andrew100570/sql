@@ -8,6 +8,7 @@
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+    <script src="{{ asset('js/api.js') }}" ></script>
 
     <!-- Styles -->
     <style>
@@ -68,6 +69,12 @@
     @if (isset($data))
     {{ $data }};
     @endif
+
+        @if(isset($notebooks))
+            @foreach ($notebooks as $notebook)
+                <p>{{ $notebook->pipeline_ORG }}</p>
+            @endforeach
+        @endif
 
     <div class="content" style="width: 100%;display: flex;flex-direction: row;
             justify-content:center;align-items:center">
