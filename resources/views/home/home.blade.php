@@ -145,13 +145,13 @@
                 <label for="characteristics-D_INCHES_MEMBER_1" class="col-md-4 col-form-label text-md-right">{{ __('characteristics-D_INCHES_MEMBER_1') }}</label>
 
                 <div class="col-md-6">
-                    <input type="number" class="form-control" name="characteristics-D_INCHES_MEMBER_1" required>
+                    <input type="number" step="0.01" class="form-control" name="characteristics-D_INCHES_MEMBER_1" required>
                 </div>
 
                 <label for="characteristics-MEMBER_1_DIAMETER_MM" class="col-md-4 col-form-label text-md-right">{{ __('characteristics-MEMBER_1_DIAMETER_MM') }}</label>
 
                 <div class="col-md-6">
-                    <input type="number" class="form-control" name="characteristics-MEMBER_1_DIAMETER_MM" required>
+                    <input type="number"  class="form-control" name="characteristics-MEMBER_1_DIAMETER_MM" required>
                 </div>
 
                 <label for="characteristics-THICKNESS_MEMBER_1_IDENTIFICATION_SCHEDULE" class="col-md-4 col-form-label text-md-right">{{ __('characteristics-THICKNESS_MEMBER_1_IDENTIFICATION_SCHEDULE') }}</label>
@@ -163,13 +163,13 @@
                 <label for="characteristics-THICKNESS_MEMBER_1_MM" class="col-md-4 col-form-label text-md-right">{{ __('characteristics-THICKNESS_MEMBER_1_MM') }}</label>
 
                 <div class="col-md-6">
-                    <input type="number" class="form-control" name="characteristics-THICKNESS_MEMBER_1_MM" required>
+                    <input type="number" step="0.01" class="form-control" name="characteristics-THICKNESS_MEMBER_1_MM" required>
                 </div>
 
                 <label for="characteristics-D_INCHES_MEMBER_2" class="col-md-4 col-form-label text-md-right">{{ __('characteristics-D_INCHES_MEMBER_2') }}</label>
 
                 <div class="col-md-6">
-                    <input type="number" class="form-control" name="characteristics-D_INCHES_MEMBER_2" required>
+                    <input type="number" step="0.01" class="form-control" name="characteristics-D_INCHES_MEMBER_2" required>
                 </div>
 
                 <label for="characteristics-MEMBER_2_DIAMETER_MM" class="col-md-4 col-form-label text-md-right">{{ __('characteristics-MEMBER_2_DIAMETER_MM') }}</label>
@@ -187,7 +187,7 @@
                 <label for="characteristics-THICKNESS_MEMBER_2_MM" class="col-md-4 col-form-label text-md-right">{{ __('characteristics-THICKNESS_MEMBER_2_MM') }}</label>
 
                 <div class="col-md-6">
-                    <input type="number" class="form-control" name="characteristics-THICKNESS_MEMBER_2_MM" required>
+                    <input type="number" step="0.01" class="form-control" name="characteristics-THICKNESS_MEMBER_2_MM" required>
                 </div>
 
                 <label for="welding-WELDING_DATE" class="col-md-4 col-form-label text-md-right">{{ __('welding-WELDING_DATE') }}</label>
